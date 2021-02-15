@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-learning03/spring-boot-learning03.iml" filepath="$PROJECT_DIR$/spring-boot-learning03/spring-boot-learning03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-learning04/spring-boot-learning04.iml" filepath="$PROJECT_DIR$/spring-boot-learning04/spring-boot-learning04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-learning05/spring-boot-learning05.iml" filepath="$PROJECT_DIR$/spring-boot-learning05/spring-boot-learning05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-learning06/spring-boot-learning06.iml" filepath="$PROJECT_DIR$/spring-boot-learning06/spring-boot-learning06.iml" />
       <module fileurl="file://$PROJECT_DIR$/springLearning.iml" filepath="$PROJECT_DIR$/springLearning.iml" />
       <module fileurl="file://$PROJECT_DIR$/springLearning02/springLearning02.iml" filepath="$PROJECT_DIR$/springLearning02/springLearning02.iml" />
       <module fileurl="file://$PROJECT_DIR$/springbootLearn/springbootLearn.iml" filepath="$PROJECT_DIR$/springbootLearn/springbootLearn.iml" />

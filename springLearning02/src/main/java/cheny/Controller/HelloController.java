@@ -1,7 +1,9 @@
 package cheny.Controller;
 
 import cheny.bean.Food;
+import cheny.bean.Vegetables;
 import cheny.config.FoodConfig;
+import cheny.config.VegetablesConfig;
 import com.sun.xml.internal.ws.api.FeatureListValidatorAnnotation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -36,5 +38,14 @@ public class HelloController {
         food.setRice(foodConfig.getRice());
         return food;
     }
-
+    @Autowired
+    private VegetablesConfig vegetablesConfig;
+    @RequestMapping("/vegetable")
+    public Vegetables vegetables(){
+        Vegetables vegetables = new Vegetables();
+        vegetables.setEggplant(vegetablesConfig.getEggplant());
+        vegetables.setGreenpeper(vegetablesConfig.getGreenpeper());
+        vegetables.setPotato(vegetablesConfig.getPotato());
+        return vegetables;
+    }
 }

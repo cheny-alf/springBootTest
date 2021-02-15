@@ -1,0 +1,6 @@
+server:
+  port: 8090
+
+food:
+  meat: 烤肉
+  rice: 拌饭

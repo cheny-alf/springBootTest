@@ -2,21 +2,34 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="springbootLearn" />
         <module name="springLearning02" />
+        <module name="springbootLearn" />
+        <module name="spring-boot-learning06" />
+        <module name="spring-boot-learning05" />
+        <module name="spring-boot-learning04" />
+        <module name="spring-boot-learning03" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="spring-boot-learning03" target="1.8" />
+      <module name="spring-boot-learning04" target="1.8" />
+      <module name="spring-boot-learning05" target="1.8" />
+      <module name="spring-boot-learning06" target="1.8" />
       <module name="springbootLearn" target="1.8" />
       <module name="springLearning02" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="spring-boot-learning03" options="-parameters" />
+      <module name="spring-boot-learning04" options="-parameters" />
+      <module name="spring-boot-learning05" options="-parameters" />
+      <module name="spring-boot-learning06" options="-parameters" />
       <module name="springLearning02" options="-parameters" />
       <module name="springbootLearn" options="-parameters" />
     </option>

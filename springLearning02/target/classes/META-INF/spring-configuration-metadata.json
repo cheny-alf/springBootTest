@@ -4,6 +4,11 @@
       "name": "food",
       "type": "cheny.config.FoodConfig",
       "sourceType": "cheny.config.FoodConfig"
+    },
+    {
+      "name": "vegetables",
+      "type": "cheny.config.VegetablesConfig",
+      "sourceType": "cheny.config.VegetablesConfig"
     }
   ],
   "properties": [
@@ -16,6 +21,21 @@
       "name": "food.rice",
       "type": "java.lang.String",
       "sourceType": "cheny.config.FoodConfig"
+    },
+    {
+      "name": "vegetables.eggplant",
+      "type": "java.lang.String",
+      "sourceType": "cheny.config.VegetablesConfig"
+    },
+    {
+      "name": "vegetables.greenpeper",
+      "type": "java.lang.String",
+      "sourceType": "cheny.config.VegetablesConfig"
+    },
+    {
+      "name": "vegetables.potato",
+      "type": "java.lang.String",
+      "sourceType": "cheny.config.VegetablesConfig"
     }
   ],
   "hints": []
